@@ -1,0 +1,74 @@
+* {
+ box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #242424;
+}
+
+.container {
+    padding: 0 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 332px;
+    
+    height: 110px;
+    background: url(https://www.talkingedgestudios.com/wp-content/uploads/TE-Logo.png) no-repeat;
+}
+
+nav .primary-btn {
+    margin: 0 10px;
+    width: 144px;
+    height: 34px;
+    padding: 8px 15px;
+    background-color: #009956;
+    color: #fff !important;
+}
+
+nav .primary-btn:hover {
+    background-color: #05874E !important;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 45px 10px 47px 10px;
+}
+
+
+nav a:hover {
+    color: #009956;
+}
+
+
+main {
+    height: calc(100vh - 111px);
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
